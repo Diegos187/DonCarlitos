@@ -6,7 +6,7 @@ $rut = $_POST['rut'];
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $password = password_hash($_POST['password'], PASSWORD_DEFAULT); // Encriptar la contraseña
-$cargo = 'cliente';  // Definir el cargo como cliente
+$cargo = 'administrador';  // Definir el cargo como cliente
 $token_verificacion = bin2hex(random_bytes(50));  // Generar un token único
 $token_expiracion = date('Y-m-d H:i:s', strtotime('+1 hour'));  // Expiración del token (1 hora)
 
@@ -35,7 +35,7 @@ if ($result->num_rows > 0) {
         // Enviar correo de verificación
         $subject = "Verificación de correo electrónico";
         $body = "Hola $nombre,\n\nHaz clic en el siguiente enlace para verificar tu cuenta:\n";
-        $body .= "http://localhost/doncarlos/login/verificar.php?token=$token_verificacion\n\n";
+        $body .= "http://192.168.0.12/doncarlos/login/verificar.php?token=$token_verificacion\n\n";
         $body .= "Este enlace expirará en 1 hora.\n\nSaludos,\nCentro Técnico DC";
         $headers = "From: diegomarin939@gmail.com";
 
