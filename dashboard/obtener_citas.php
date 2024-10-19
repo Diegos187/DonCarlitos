@@ -223,7 +223,7 @@ if ($rut_cliente) {
                 <option value="cancelado">Cancelado</option>
                 <option value="en proceso">En proceso</option>
                 <option value="finalizado">Finalizado</option>
-            </select>
+            </select
             <button type="submit" class="btn-mod">Confirmar Cambio</button>
         </form>
     </div>
