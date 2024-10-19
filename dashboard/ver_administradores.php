@@ -29,7 +29,7 @@ $result = $conex->query($query);
                     <th>Nombre</th>
                     <th>Email</th>
                     <th>Fecha de Registro</th>
-                    <th>Bajar Cargo</th> <!-- Nuevo campo para bajar el cargo -->
+                    <th>Bajar Cargo</th> 
                 </tr>
             </thead>
             <tbody>
