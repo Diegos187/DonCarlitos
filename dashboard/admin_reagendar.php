@@ -69,10 +69,10 @@ if (isset($_POST['id_form']) && isset($_POST['fecha']) && isset($_POST['horario'
                 <li><strong>RUT:</strong> {$cita['rut']}</li>
                 <li><strong>Servicio:</strong> {$cita['tipo_servicio']}</li>
                 <li><strong>Producto:</strong> {$cita['tipo_producto']}</li>
-                <li><strong>Fecha Anterior:</strong> {$cita['fecha_anterior']}</li>
-                <li><strong>Hora Anterior:</strong> {$cita['hora_anterior']}</li>
-                <li><strong>Nueva Fecha:</strong> {$cita['nueva_fecha']}</li>
-                <li><strong>Nueva Hora:</strong> {$cita['nueva_hora']}</li>
+                <li><strong>Fecha anterior:</strong> {$cita['fecha_anterior']}</li>
+                <li><strong>Hora anterior:</strong> {$cita['hora_anterior']}</li>
+                <li><strong>Nueva fecha:</strong> {$cita['nueva_fecha']}</li>
+                <li><strong>Nueva hora:</strong> {$cita['nueva_hora']}</li>
             </ul>
             <p>Gracias por utilizar nuestro servicio.</p>
         ";
@@ -85,11 +85,11 @@ if (isset($_POST['id_form']) && isset($_POST['fecha']) && isset($_POST['horario'
                 <li><strong>Cita ID:</strong> {$cita['id_form']}</li>
                 <li><strong>Servicio:</strong> {$cita['tipo_servicio']}</li>
                 <li><strong>Producto:</strong> {$cita['tipo_producto']}</li>
-                <li><strong>Fecha Anterior:</strong> {$cita['fecha_anterior']}</li>
-                <li><strong>Hora Anterior:</strong> {$cita['hora_anterior']}</li>
-                <li><strong>Nueva Fecha:</strong> {$cita['nueva_fecha']}</li>
-                <li><strong>Nueva Hora:</strong> {$cita['nueva_hora']}</li>
-                <li><strong>Correo Cliente:</strong> {$correo_cliente}</li>
+                <li><strong>Fecha anterior:</strong> {$cita['fecha_anterior']}</li>
+                <li><strong>Hora anterior:</strong> {$cita['hora_anterior']}</li>
+                <li><strong>Nueva fecha:</strong> {$cita['nueva_fecha']}</li>
+                <li><strong>Nueva hora:</strong> {$cita['nueva_hora']}</li>
+                <li><strong>Correo cliente:</strong> {$correo_cliente}</li>
             </ul>
             <p>Por favor, asegúrese de que todo esté listo para la nueva fecha.</p>
         ";

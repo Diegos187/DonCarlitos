@@ -87,7 +87,7 @@ if (isset($_POST['id_form']) && isset($_POST['monto']) && isset($_POST['comentar
         // Mensaje para el administrador/dueño
         $mensaje_dueno = "
             <h3>Estimado/a Administrador</h3>
-            <p>Se ha generado un nuevo presupuesto para la cita <strong>#{$cita['id_form']}</strong> del cliente <strong>{$cita['nombre']} {$cita['apellido']}</strong> con RUT <strong>{$cita['rut']}</strong>.</p>
+            <p>Se ha generado un nuevo presupuesto para la Cita <strong>#{$cita['id_form']}</strong> del cliente <strong>{$cita['nombre']} {$cita['apellido']}</strong> con RUT <strong>{$cita['rut']}</strong>.</p>
             <ul>
                 <li><strong>Servicio:</strong> {$cita['tipo_servicio']}</li>
                 <li><strong>Producto:</strong> {$cita['tipo_producto']}</li>
