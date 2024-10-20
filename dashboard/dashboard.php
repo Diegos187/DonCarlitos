@@ -159,8 +159,6 @@ $result_citas = $stmt->get_result();
     <div class="modal-contenido-detalles">
         <span class="cerrar-presupuesto">&times;</span>
         <h2>Presupuesto</h2>
-        
-        <!-- Contenedor para mensajes de estado (procesando, éxito, error) -->
 
         
         <p><strong>Monto:</strong> $<span id="presupuestoMonto"></span></p>
