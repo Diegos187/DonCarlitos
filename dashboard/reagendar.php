@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Enviar correos de notificación
         $correo_cliente = $cita['correo'];
         $correo_dueno = 'diegomarin939@gmail.com';
-        $asunto = "Reagendamiento de Cita - " . $cita['tipo_servicio'];
+        $asunto = "Reagendamiento de Cita Tecnico- " . $cita['tipo_servicio'];
 
         $mensaje_cliente = "
             <h3>Estimado/a {$cita['nombre']} {$cita['apellido']}</h3>
