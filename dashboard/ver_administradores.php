@@ -60,7 +60,7 @@ $result = $conex->query($query);
         <h2>Bajar a Cliente</h2>
         <form id="formBajarCargo">
             <input type="hidden" id="adminId" name="userId"> <!-- Cambia el name a userId -->
-            <p>¿Estás seguro que deseas bajar a <span id="adminNombre"></span> a cliente?</p>
+            <p>¿Estimado, estás seguro que deseas bajar a <span id="adminNombre"></span> a cliente?</p>
             <label for="password">Contraseña actual:</label>
             <input type="password" id="password" name="password" required>
             <button type="submit">Confirmar</button>
