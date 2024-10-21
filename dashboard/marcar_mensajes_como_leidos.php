@@ -2,7 +2,7 @@
 include('../conexion.php');
 
 session_start();
-$user_cargo = $_SESSION['user_cargo'];  // Obtener el rol del usuario logueado
+$user_cargo = $_SESSION['user_cargo'];  // Obtener el rol del usuario logueado.
 
 $id_form = $_GET['id_form'];
 
